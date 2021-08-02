@@ -20,6 +20,9 @@ import { InboxComponent } from './inbox/inbox.component';
 import { SettingComponent } from './setting/setting.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ArbeitsplatzComponent } from './arbeitsplatz/arbeitsplatz.component';
+import { MessageComponent } from './message/message.component';
+import { IssueTrackerDetailsComponent } from './issue-tracker-details/issue-tracker-details.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LeaderBoardComponent,
     InboxComponent,
     SettingComponent,
-    ProfileComponent
+    ProfileComponent,
+    ArbeitsplatzComponent,
+    MessageComponent,
+    IssueTrackerDetailsComponent
   ],
   imports: [
     BrowserModule,

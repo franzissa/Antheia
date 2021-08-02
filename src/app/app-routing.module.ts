@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {ArbeitsplatzComponent} from "./arbeitsplatz/arbeitsplatz.component";
 import {ChallengeBoardComponent} from "./challenge-board/challenge-board.component";
 import {FooterComponent} from "./footer/footer.component";
 import {HeaderComponent} from "./header/header.component";
@@ -26,7 +27,8 @@ const routes: Routes = [
       {path: 'leader-board', component: LeaderBoardComponent},
       {path: 'profile', component: ProfileComponent},
       {path: 'rewards', component: RewardsComponent},
-      {path: 'settings', component: SettingComponent}
+      {path: 'settings', component: SettingComponent},
+      {path: 'arbeitsplatz', component: ArbeitsplatzComponent}
     ],
   },
 ];
