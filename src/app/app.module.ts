@@ -20,7 +20,7 @@ import { InboxComponent } from './inbox/inbox.component';
 import { SettingComponent } from './setting/setting.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ArbeitsplatzComponent } from './arbeitsplatz/arbeitsplatz.component';
+import { ArbeitsplatzComponent } from './kategorie/arbeitsplatz.component';
 import { MessageComponent } from './message/message.component';
 import { IssueTrackerDetailsComponent } from './issue-tracker-details/issue-tracker-details.component';
 import { ChallengeDetailsComponent } from './challenge-details/challenge-details.component';
