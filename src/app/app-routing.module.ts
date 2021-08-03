@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {ArbeitsplatzComponent} from "./arbeitsplatz/arbeitsplatz.component";
 import {ChallengeBoardComponent} from "./challenge-board/challenge-board.component";
+import {ChallengeDetailsComponent} from "./challenge-details/challenge-details.component";
 import {FooterComponent} from "./footer/footer.component";
 import {HeaderComponent} from "./header/header.component";
 import {HomeComponent} from "./home/home.component";
@@ -28,7 +29,8 @@ const routes: Routes = [
       {path: 'profile', component: ProfileComponent},
       {path: 'rewards', component: RewardsComponent},
       {path: 'settings', component: SettingComponent},
-      {path: 'arbeitsplatz', component: ArbeitsplatzComponent}
+      {path: 'arbeitsplatz', component: ArbeitsplatzComponent},
+      { path: 'challenge-details', component: ChallengeDetailsComponent },
     ],
   },
 ];

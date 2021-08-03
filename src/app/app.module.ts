@@ -23,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ArbeitsplatzComponent } from './arbeitsplatz/arbeitsplatz.component';
 import { MessageComponent } from './message/message.component';
 import { IssueTrackerDetailsComponent } from './issue-tracker-details/issue-tracker-details.component';
+import { ChallengeDetailsComponent } from './challenge-details/challenge-details.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { IssueTrackerDetailsComponent } from './issue-tracker-details/issue-trac
     ProfileComponent,
     ArbeitsplatzComponent,
     MessageComponent,
-    IssueTrackerDetailsComponent
+    IssueTrackerDetailsComponent,
+    ChallengeDetailsComponent
   ],
   imports: [
     BrowserModule,
