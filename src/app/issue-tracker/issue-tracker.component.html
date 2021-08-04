@@ -1,87 +1,172 @@
-
-<app-side-nav></app-side-nav>
-<div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">
-  <p style="text-align: center; margin-top: 10px" class="text-2xl">Wähle eine Kategorie</p>
-  <div class="uk-align-left" style="margin-top: 200px; margin-left: 250px">
-    <div class="flex mt-16">
-      <div class="mx-auto flex gap-10">
-        <div class="w-auto h-auto">
-          <div class="flex-1 h-full">
-            <div class="flex items-center justify-center flex-1 h-full p-2  shadow rounded-lg">
-              <div class="relative">
-                <button type="button" class="material-icons h-44 w-44 bg-gray-50" >
-                  directions_bike
-                </button>
-                <p style="text-align: center">Mobilität</p>
-              </div>
-            </div>
-
-          </div>
-
+<!-- component -->
+<div id="container" class="w-4/5 mt-44 ml-72">
+  <div class="flex flex-col sm:flex-row">
+    <!-- Card 1 -->
+    <div class="sm:w-1/4 p-2">
+      <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+        <div class="mb-3">
+          <!--   <img
+               class="w-auto mx-auto rounded-full"
+               src="https://i.pravatar.cc/150?img=66"
+               alt=""
+             />-->
+          <img src="assets/annie-spratt-_dAnK9GJvdY-unsplash.jpg" href="#" routerLink="/kategorie" alt="photo" class=" w-24 h-24 mx-auto rounded-full">
         </div>
+        <p style="text-align: center"><b>Mobilität</b></p>
+      </div>
+    </div>
 
-        <div class="w-auto h-auto">
-          <div class="flex-1 h-full">
-            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">
-              <div class="relative">
-                <button  href="#" routerLink="/arbeitsplatz" [routerLinkActiveOptions]="{exact:true}"
-                         routerLinkActive="active" type="button" class="material-icons h-44 w-44 bg-gray-50">
-                  maps_home_work
-                </button>
-                <p style="text-align: center">Arbeitsplatz</p>
-              </div>
-            </div>
-          </div>
-
+    <!-- Card 2 -->
+    <div class="sm:w-1/4 p-2">
+      <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+        <div class="mb-3">
+          <!--  <img
+              class="w-auto mx-auto rounded-full"
+              src="https://i.pravatar.cc/150?img=31"
+              alt=""
+            />-->
+          <img src="assets/christina-wocintechchat-com-r1dsQ4-cTqI-unsplash.jpg" href="#" routerLink="/kategorie" alt="photo" class=" w-24 h-24 mx-auto rounded-full">
         </div>
+        <p style="text-align: center"><b>Zu Hause</b></p>
+      </div>
+    </div>
 
-        <div class="w-auto h-auto">
-          <div class="flex-1 h-full">
-            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">
-              <div class="relative">
-                <button type="button" class="material-icons h-44 w-44 bg-gray-50 ">
-                  cottage
-                </button>
-                <p style="text-align: center">Zu Hause</p>
-              </div>
-            </div>
-          </div>
-
+    <!-- Card 3 -->
+    <div class="sm:w-1/4 p-2">
+      <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+        <div class="mb-3">
+          <img src="assets/ruffa-jane-reyes-dlGhQPIstkQ-unsplash.jpg" href="#" routerLink="/kategorie" alt="photo" class=" w-24 h-24 mx-auto rounded-full">
         </div>
+        <p style="text-align: center"><b>Arbeitsplatz</b></p>
+      </div>
+    </div>
 
-        <div class="w-auto h-auto">
-          <div class="flex-1 h-full">
-            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">
-              <div class="relative">
-                <button type="button" class="material-icons h-44 w-44 bg-gray-50">
-                  public
-                </button>
-                <p style="text-align: center">Öffentlicher Raum</p>
-              </div>
-            </div>
-          </div>
-
+    <!-- Card 4 -->
+    <div class="sm:w-1/4 p-2">
+      <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+        <div class="mb-3">
+          <img src="assets/waldemar-brandt-rHfTdK9YU2Q-unsplash.jpg" href="#" routerLink="/kategorie" alt="photo" class=" w-24 h-24 mx-auto rounded-full">
         </div>
-
-
-        <div class="w-auto h-auto">
-          <div class="flex-1 h-full">
-            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">
-              <div class="relative">
-                <button type="button" class="material-icons h-44 w-44 bg-gray-50">
-                  api
-                </button>
-                <p style="text-align: center">Software</p>
-              </div>
-            </div>
-          </div>
-
+        <p style="text-align: center"><b>Software</b></p>
+      </div>
+    </div>
+    <!--card5-->
+    <div class="sm:w-1/4 p-2">
+      <div class="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
+        <div class="mb-3">
+          <img src="assets/waldemar-brandt-rHfTdK9YU2Q-unsplash.jpg" href="#" routerLink="/kategorie" alt="photo" class=" w-24 h-24 mx-auto rounded-full">
         </div>
+        <p style="text-align: center"><b>Software</b></p>
       </div>
     </div>
 
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">-->
+<!--  <p style="text-align: center; margin-top: 10px" class="text-2xl">Wähle eine Kategorie</p>-->
+<!--  <div class="uk-align-left" style="margin-top: 200px; margin-left: 250px">-->
+<!--    <div class="flex mt-16">-->
+<!--      <div class="mx-auto flex gap-10">-->
+<!--        <div class="w-auto h-auto">-->
+<!--          <div class="flex-1 h-full">-->
+<!--            <div class="flex items-center justify-center flex-1 h-full p-2  shadow rounded-lg">-->
+<!--              <div class="relative">-->
+<!--                <button type="button" class="material-icons h-44 w-44 bg-gray-50">-->
+<!--                  directions_bike-->
+<!--                </button>-->
+<!--                <p style="text-align: center">Mobilität</p>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--          </div>-->
+
+<!--        </div>-->
+
+<!--        <div class="w-auto h-auto">-->
+<!--          <div class="flex-1 h-full">-->
+<!--            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">-->
+<!--              <div class="relative">-->
+<!--                <button href="#" routerLink="/kategorie" [routerLinkActiveOptions]="{exact:true}"-->
+<!--                        routerLinkActive="active" type="button" class="material-icons h-44 w-44 bg-gray-50">-->
+<!--                  maps_home_work-->
+<!--                </button>-->
+<!--                <p style="text-align: center">Arbeitsplatz</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--        </div>-->
+
+<!--        <div class="w-auto h-auto">-->
+<!--          <div class="flex-1 h-full">-->
+<!--            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">-->
+<!--              <div class="relative">-->
+<!--                <button type="button" class="material-icons h-44 w-44 bg-gray-50 ">-->
+<!--                  cottage-->
+<!--                </button>-->
+<!--                <p style="text-align: center">Zu Hause</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--        </div>-->
+
+<!--        <div class="w-auto h-auto">-->
+<!--          <div class="flex-1 h-full">-->
+<!--            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">-->
+<!--              <div class="relative">-->
+<!--                <button type="button" class="material-icons h-44 w-44 bg-gray-50">-->
+<!--                  public-->
+<!--                </button>-->
+<!--                <p style="text-align: center">Öffentlicher Raum</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--        </div>-->
+
+
+<!--        <div class="w-auto h-auto">-->
+<!--          <div class="flex-1 h-full">-->
+<!--            <div class="flex items-center justify-center flex-1 h-full p-2 shadow rounded-lg">-->
+<!--              <div class="relative">-->
+<!--                <button type="button" class="material-icons h-44 w-44 bg-gray-50">-->
+<!--                  api-->
+<!--                </button>-->
+<!--                <p style="text-align: center">Software</p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--  </div>-->
+<!--</div>-->
 
 
 

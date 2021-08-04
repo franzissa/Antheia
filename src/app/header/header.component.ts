@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  showFiller = false;
+  isExpanded = true;
+  showFiller = true;
   constructor() { }
 
   ngOnInit(): void {

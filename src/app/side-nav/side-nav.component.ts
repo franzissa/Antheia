@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideNavComponent implements OnInit {
   showFiller = true;
+
   constructor() { }
 
   ngOnInit(): void {
