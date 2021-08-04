@@ -12,7 +12,6 @@ import { HomeComponent } from './home/home.component';
 import { IssueTrackerComponent } from './issue-tracker/issue-tracker.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import {OpenCloseComponent} from "./side-nav/openClose.component";
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { ChallengeBoardComponent } from './challenge-board/challenge-board.component';
 import { RewardsComponent } from './rewards/rewards.component';
@@ -45,9 +44,7 @@ import { ChallengeDetailsComponent } from './challenge-details/challenge-details
     ArbeitsplatzComponent,
     MessageComponent,
     IssueTrackerDetailsComponent,
-    ChallengeDetailsComponent,
-    //OpenCloseComponent
-  ],
+    ChallengeDetailsComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
