@@ -30,14 +30,15 @@
       <div>
         <div class="border-b">
           <div class="my-4 px-6">
-            <h2 class="font-semibold text-2xl">Expense Tracker</h2>
+            <h2 class="font-semibold text-2xl">Heizkosten sparen</h2>
           </div>
         </div>
         <div class="px-8 py-2">
-          <h4 class="text-lg text-gray-500 font-thin">Your Balance</h4>
-          <h4 class="text-2xl font-semibold">RM 430.00</h4>
+          <h4 class="text-2xl font-semibold text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales bibendum ultricies. Quisque tincidunt lorem non arcu dictum, a luctus odio pretium. Maecenas ac arcu orci. Cras non urna sit amet tellus rhoncus viverra sed sed arcu. Donec luctus orci ac nulla pretium, vel convallis dolor finibus. Praesent ultricies pretium orci non venenatis. Quisque ullamcorper nisi a dolor vestibulum sagittis. Suspendisse interdum id mi eu finibus. </h4>
+          <img class="mx-auto" src="assets/katzen-heizung.jpg" width="400">
         </div>
-        <div class="flex space-x-0 flex-col lg:flex-row lg:space-x-2 my-2 px-6">
+
+<!--        <div class="flex space-x-0 flex-col lg:flex-row lg:space-x-2 my-2 px-6">
           <div class="bg-green-600 p-4 border-2 rounded-md shadow-lg  w-full text-white text-center">
             <h1 class="text-xl font-light">INCOME</h1>
             <h1 class="text-2xl text-green-100 font-semibold">RM 600.00</h1>
@@ -123,26 +124,59 @@
               </div>
             </form>
           </div>
+        </div>-->
+
+        <div class="mx-auto justify-center px-8 py-2 grid grid-cols-3 gap-1 mt-6">
+
+          <div class="mx-auto">
+            <h3 class="font-semibold text-2xl">Kategorie</h3>
+          </div>
+
+          <div class="mx-auto">
+            <h3 class="font-semibold text-2xl">Umwelteinfluss</h3>
+          </div>
+
+          <div class="mx-auto">
+            <h3 class="font-semibold text-2xl">Dauer</h3>
+          </div>
+
+          <div class="mx-auto">
+            <img src="assets/green-power.png" alt="Strom sparen" width="100" height="100">
+            <p>Strom sparen</p>
+          </div>
+
+          <div class="mx-auto">
+            <img src="assets/co2.png" width="100" height="100">
+            <p>20 kg CO² sparen</p>
+          </div>
+
+          <div class="mx-auto">
+            <img src="assets/schedule.png" width="100" height="100">
+            <div class="mx-auto">Einen Tag</div>
+          </div>
+
         </div>
+
+        <div class="mx-auto mx-8 mt-8">
+          <h1 class="font-semibold text-2xl">Dein aktueller Fortschritt</h1>
+          <div class="mt-2 relative rounded-full overflow-hidden">
+            <div class="w-full h-full bg-gray-200 absolute "></div>
+            <div class="h-full bg-yellow-400 sm:bg-green-500 absolute" style="width:80%"></div>
+            &lt;!&ndash; <span class="text-xs text-yellow-400">80%</span> &ndash;&gt;
+          </div>
+        </div>
+
+
+        <div class="mx-8 mt-8">
+          <button href="#" routerLink="/challenge-board" routerLinkActive="active" class="mr-6 my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Zurück
+          </button>
+          <button href="#" routerLink="/challenge-board" routerLinkActive="active" class="my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Fortschritt eintragen
+          </button>
+        </div>
+
       </div>
     </div>
   </div>
 </div>
-<script type="text/javascript">
-  const getCurrentTimeDate = () => {
-    let currentTimeDate = new Date();
-    var hours   =  currentTimeDate.getHours();
-    var minutes =  currentTimeDate.getMinutes();
-    minutes = minutes < 10 ? '0'+minutes : minutes;
-    var AMPM = hours >= 12 ? 'PM' : 'AM';
-    if(hours === 12){
-      hours=12;
-    }else{
-      hours = hours%12;
-    }
-    var currentTime = `${hours}:${minutes}${AMPM}`;
-    document.getElementById("time").innerHTML = currentTime;
-    setTimeout(getCurrentTimeDate, 500);
-  }
-  getCurrentTimeDate();
-</script>
