@@ -1,6 +1,6 @@
 <div class="header" style=" justify-content: center">
   <ul class="breadcrumb">
-    <h1 style="text-align: center; height: 100px" class="shadow-xl color-300"><b>Papierverbrauch Challenge</b></h1>
+    <h1 style="text-align: center; height: 100px;  background-color: #D1D5DB;" class="shadow-xl color-300"><b>Papierverbrauch Challenge</b></h1>
     <li><a href="/Home">Home</a></li>
     <li><a href="/challenge-board">Challenge Board</a></li>
     <li>Challenge Details</li>
@@ -9,16 +9,17 @@
 <div class="bg-white w-4/5 mt-30 ml-72">
   <div class="mx-auto w-6/12">
     <div class="mx-auto">
-      <div>
-        <div class="py-2">
-          <h4 class="text-2xl font-semibold text-justify">Für 7 Tage sollen keine E-Mails und so gut es geht keine
+
+        <div class="py-2 shadow-lg ">
+          <p class="text-xl" style="padding: 20px">Für 7 Tage sollen keine E-Mails und so gut es geht keine
             anderen Dokumente gedruckt werden. Für jedes nicht gedruckte Dokument kann in der Challenge der Zähler
             hochgesetzt werden und das gesparte CO2 wird eurem Ersparten CO2 Konto gutgeschrieben. Anstatt Dokumente auf
             dem Laptop oder dem Desktop PC zu lesen ist auch die Nutzung eines Tablets sehr komfortable, und sehr
             Papiernah. Wenn Ihr andere Papierlose Ideen habt macht doch btte ein Foto und helft euren Kollegen diese
-            Challenge zu schaffen.</h4>
-          <img class="mx-auto" src="assets/tablet.jpg" width="300">
+            Challenge zu schaffen.</p>
         </div>
+        <div class="shadow-lg">
+          <img class="mx-auto" src="assets/tablet.jpg" width="300">
         <div class="mx-auto justify-center py-2 grid grid-cols-2 gap-1 mt-6">
           <div class="mx-auto">
             <h3 class="font-semibold text-2xl">Kategorie</h3>
@@ -154,18 +155,18 @@
             </button>
           </div>
         </div>
-        <!-- End Counter -->
-
-        <!-- Buttons -->
-        <div class="mt-8">
-          <button href="#" routerLink="/challenge-board" routerLinkActive="active"
-                  class="mr-6 my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Zurück
-          </button>
         </div>
-        <!-- End Buttons -->
-
       </div>
+    <div class="mt-8" style="justify-content: center">
+      <button href="#" routerLink="/challenge-board" routerLinkActive="active"
+              class="mr-6 my-4 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 text-xl rounded">
+        Challenge einreichen
+      </button>
     </div>
+    </div>
+    <!-- End Counter -->
+
+
+    <!-- End Buttons -->
   </div>
-</div>
+
