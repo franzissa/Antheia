@@ -40,3 +40,12 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
+.box {
+  position:relative;
+}
+.bet_time {
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding: 5px;
+}
